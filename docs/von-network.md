@@ -1,23 +1,32 @@
-# VON Network
+# VON
 
-A portable development level Indy Node network, including a Ledger Browser. The Ledger Browserallows a user to see the status of the nodes of a network and browse/search/filter the Ledger Transactions.
+The Definition [VON](https://github.com/bcgov/von) is a verifiable organization's network that allows a group of trusted organizations combined together forms a network for the use of people and services across Cochin. The network can reduce the effort for people to reach an association to get authorized from that association or a community by making it online with blockchain technology which made the network more secure and to maintain privacy.
 
-`von-network` is being developed as part of the Verifiable Organizations Network (VON).
+## Objectives
 
+The overall goal of the project is to provide a secure platform where organizations/associations share their data which is needed for a new people or a community to enter in the association/society by verifying their credentials which is proof of concept without losing privacy of the organizations and associations 
 
-## The VON-Network Ledger Browser and API
+## Why Blockchain?
 
-With the Ledger Browser, you can see:
+von is built on a foundation of [blockchain](https://en.wikipedia.org/wiki/Blockchain) technology, and more specifically [hyperledger](https://en.wikipedia.org/wiki/Hyperledger)-indy. Blockchain technology focused on decentralized identity [DIDs]. Blockchain provides the data secure by directly storing the data in the network which is sovrin network, only authorized people can view the data in the network but no one has access to write the data on their own. you can refer the [link](https://vonx.io/getting_started/vons-blockchain-basis/) to get more details about Von's blockchain.
 
-- The status of the Ledger nodes
-- The detailed status of the Ledger Nodes in JSON format
-- The three ledger's of an Indy Network - Domain, Pool and Config
-- The Genesis Transactions for the Indy Network instance.
-  - In an Indy Agent, use the URL `<server>/genesis` to GET the genesis file to use in initializing the Agent.
+## Types of VON participants
 
-By using the "Authenticate a new DID" part of the UI or posting the appropriate JSON to the VON-Network API, a new DID can be added to the Ledger. A known and published *Trust Anchor* DID is used to write the new DID to the Ledger.  This operation would not be permitted in this way on the Sovrin Main Network. However, it is a useful mechanism on sandbox Indy Networks used for testing.
+The following people/ organizations that can be the part of the von-network
+ - Authoritative Public Registries
+    
+    Authoritative public registries are the foundation of VON. Registries have the authority to register individuals and organizations to operate within a jurisdiction. There are many examples of registries:
+    - Corporate registries for organizational entities (corporations, partnerships, sole 
+    - proprietorships, non-profits and so on)
+    - Professional accreditation registries (lawyers, doctors, engineers and so on)
+    - Associations such as colleges and universities
+    - Land title registries
 
-In the `Domain` Ledger screen, you can browse through all of the transactions that have been created on this instance of the Ledger.  As well, you can use a drop down filter to see only specific Ledger transaction types (`nym` - aka DID, `schema`, `CredDef`, etc.), and search for strings in the content of the transactions.
+- Permits and Licenses Issuers
+    The organizations which can provide licenses/ permits to public entities that are authorized by a registry can enter into the network.
+- Registration, Permit and Licence Verifiers
+
+You can refer to the page [https://vonx.io/](https://vonx.io/) which is the official von site.
 
 ## VON Quick Guide
 
@@ -58,7 +67,7 @@ The `./manage` script has a number of commands. Run it without arguments to see 
 ./manage start
 ```
 
-Monitor the logs for error messages as the nodes start up.
+Monitor the logs for error messages as the nodes startup.
 
 6. Verify the network is running
 
