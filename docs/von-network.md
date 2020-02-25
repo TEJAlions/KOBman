@@ -8,7 +8,7 @@ The overall goal of the project is to provide a secure platform where organizati
 
 ## Why Blockchain?
 
-von is built on a foundation of [blockchain](https://en.wikipedia.org/wiki/Blockchain) technology, and more specifically [hyperledger](https://en.wikipedia.org/wiki/Hyperledger)-indy. Blockchain technology focused on decentralized identity [DIDs]. Blockchain provides the data secure by directly storing the data in the network which is sovrin network, only authorized people can view the data in the network but no one has access to write the data on their own. you can refer the [link](https://vonx.io/getting_started/vons-blockchain-basis/) to get more details about Von's blockchain.
+von is built on a foundation of [blockchain](https://en.wikipedia.org/wiki/Blockchain) technology, and more specifically [hyperledger](https://en.wikipedia.org/wiki/Hyperledger)-indy. Blockchain technology focused on decentralized identity [DIDs]. Blockchain provides the data secure by directly storing the data in the network which is sovrin network, only authorized people can view the data in the network but no one has access to write the data on their own. you can refer the link to get more details about [Von's blockchain](https://vonx.io/getting_started/vons-blockchain-basis/).
 
 ## Types of VON participants
 
